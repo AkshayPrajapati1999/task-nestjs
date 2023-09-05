@@ -24,7 +24,7 @@ export default function Main() {
                 Nulla eu lorem cras leo.
               </p>
               <div className="mt-5">
-                <Image src="plus.svg" height="20" width="20" alt="avtar" />
+                <Image src="users-plus.svg" height="20" width="20" alt="avtar" />
               </div>
             </div>
             <div className="md:my-0 my-8">

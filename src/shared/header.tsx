@@ -35,17 +35,6 @@ export default function Header() {
             <span className="sr-only">Open main menu</span>
           </button>
         </div>
-        <div className="hidden lg:flex lg:gap-x-5">
-          {navigation.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              className="text-sm font-semibold leading-6 text-white"
-            >
-              {item.name}
-            </a>
-          ))}
-        </div>
       </nav>
 
       <Dialog
